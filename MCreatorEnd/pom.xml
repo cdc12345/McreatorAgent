@@ -363,13 +363,6 @@
             <systemPath>${project.basedir}/lib/yamlbeans-1.15.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>net.mcreator</groupId>
-            <artifactId>javas</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/javassist-3.28.0-GA.jar</systemPath>
-        </dependency>
-        <dependency>
             <groupId>org.commonmark</groupId>
             <artifactId>commonmark</artifactId>
             <version>1.0</version>
