@@ -16,7 +16,7 @@ MCR补丁是由cdc开发的一个辅助性工具,主要用于辅助mcr大陆用�
 
 3. 如果您需要快捷方式启动(可以像图片这样配置)
 
-   ![image-20230215122347343](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230215122347343.png)
+   ![image-20230215122347343](.\assets\attribution.png)
 
 #### 模块目录
 
@@ -71,7 +71,7 @@ Translator.base = current
 
 **该模块会添加一个按钮帮助您一键翻译**
 
-![image-20230212143750973](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230212143750973.png)
+![image-20230212143750973](.\assets\translate.png)
 
 **翻译基准**
 
@@ -111,7 +111,7 @@ Translator.base = current
 
 注:如果这个文本域内已经存在文本,那么翻译结果将会追加到后面
 
-![image-20230215122711603](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230215122711603.png)
+![image-20230215122711603](.\assets\translateWindow.png)
 
 特定的文本输入域:
 
@@ -134,11 +134,11 @@ FontFix.fontSize = 19
 
 开启前:
 
-![image-20230212144822356](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230212144822356.png)
+![image-20230212144822356](.\assets\beforeOpen.png)
 
 开启后:
 
-![image-20230212144912290](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230212144912290.png)
+![image-20230212144912290](.\assets\afterOpen.png)
 
 ##### 汉化池模块(实验性)
 
@@ -155,19 +155,19 @@ CNPool.forceInnerPool=false
 
 未启用:
 
-![image-20230212150221815](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230212150221815.png)
+![image-20230212150221815](.\assets\beforeOpenInCNPool)
 
 启用后:
 
-![image-20230212150303783](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230212150303783.png)
+![image-20230212150303783](.\assets\afterOpenInCNPool)
 
 (并不只这一个)
 
 #### 问题及对应的模块
 
-| 问题                                                         | 对应模块       |
-| ------------------------------------------------------------ | -------------- |
-| MCreator卡在了进度条,类似于![img](https://tiebapic.baidu.com/forum/pic/item/92ac155c1038534355c344e6d613b07ecb808875.jpg?tbpicau=2023-04-09-05_cd94fcad53d86d4740fc7f299c4a182f) | 官网屏蔽       |
-| 控制台字体太小                                               | 控制台字体调整 |
-| 想要能够用中文搜索方块或者物品?                              | 汉化池         |
+| 问题                            | 对应模块       |
+| ------------------------------- | -------------- |
+| MCreator卡在了进度条            | 官网屏蔽       |
+| 控制台字体太小                  | 控制台字体调整 |
+| 想要能够用中文搜索方块或者物品? | 汉化池         |
 
