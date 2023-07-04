@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Premain-Class: org.cdc.gradleend.AgentMain
+Agent-Class: org.cdc.gradleend.AgentMain
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Main-Class: org.cdc.gradleend.Main
+Class-Path: ./lib/agentLib.jar javassist.jar

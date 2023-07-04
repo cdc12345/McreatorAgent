@@ -1,8 +1,8 @@
 package org.cdc.mcreatoragent;
 
-import org.cdc.AbstractConfiguration;
+import org.cdc.agentlib.AbstractConfiguration;
+import org.cdc.agentlib.transformer.AgentClassTransformer;
 import org.cdc.mcreatoragent.model.*;
-import org.cdc.transformer.AgentClassTransformer;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -40,7 +40,7 @@ public class AgentClass implements AbstractConfiguration {
     private AgentClass() {}
 
 
-    public static String version = "6";
+    public static String version = "8";
     public static Properties config = new Properties();
     public static Instrumentation instrumentation;
     public static File configFile;
@@ -78,6 +78,8 @@ public class AgentClass implements AbstractConfiguration {
             classTransformer.addTransformer(new FontFix(agentClass));
         if (agentClass.isEnable("CNPool"))
             classTransformer.addTransformer(new CNPool(agentClass));
+        if (agentClass.isEnable("GradleHelp"))
+            classTransformer.addTransformer(new GradleHelp(agentClass));
 //        if (isEnable("Experiment")){}
 
         instrumentation.addTransformer(classTransformer, false);

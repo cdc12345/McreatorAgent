@@ -2,9 +2,9 @@ package org.cdc.mcreatoragent.model;
 
 
 import javassist.*;
-import org.cdc.AbstractConfiguration;
-import org.cdc.transformer.annotation.FilteredClass;
-import org.cdc.transformer.FilterClassTransformer;
+import org.cdc.agentlib.AbstractConfiguration;
+import org.cdc.agentlib.transformer.FilterClassTransformer;
+import org.cdc.agentlib.transformer.annotation.FilteredClass;
 
 /**
  * e-mail: 3154934427@qq.com

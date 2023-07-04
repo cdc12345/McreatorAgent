@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MCreatorEnd" />
+        <module name="GradleEnd" />
         <module name="AgentLib" />
       </profile>
     </annotationProcessing>

@@ -8,6 +8,8 @@ MCR补丁是由cdc开发的一个辅助性工具,主要用于辅助mcr大陆用�
 
 配置文件目前能够即时的载入变更的时效性配置(模块启用和特别注明的都是非时效性配置),所以在启动mcreator时您也同样能改配置
 
+适配版本:2023.2.24119(请尽可能高于这个版本)
+
 #### 安装方法
 
 1. 把压缩包内所有文件都拖进mcreator的安装目录
@@ -162,6 +164,26 @@ CNPool.forceInnerPool=false
 ![image-20230212150303783](.\assets\afterOpenInCNPool)
 
 (并不只这一个)
+
+#### Gradle协助模块
+
+```properties
+#模块启动
+GradleHelp = false
+#是否启用黏附gradle(测试性质)
+GradleHelp.attachGradle = false
+#是否启用替换模式
+GradleHelp.resetWorkspaceBase = false
+#一些比较细节的参数
+#forge镜像地址
+GradleHelp.forgeMirror = https://maven.fastmirror.net/repositories/minecraft
+#dist镜像地址
+GradleHelp.distMirror = mirrors.cloud.tencent.com/gradle
+```
+
+这里只说一下替换模式
+
+替换模式会自动帮用户生成构建文件,包括(build.gradle gradle/wrapper/gradle-wrapper.properties和settings.gradle)
 
 #### 问题及对应的模块
 

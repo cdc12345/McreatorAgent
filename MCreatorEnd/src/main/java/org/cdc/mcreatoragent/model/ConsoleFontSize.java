@@ -4,7 +4,7 @@ import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.CtMethod;
 import org.cdc.mcreatoragent.AgentClass;
-import org.cdc.transformer.ModelClassTransformer;
+import org.cdc.agentlib.transformer.ModelClassTransformer;
 
 /**
  * e-mail: 3154934427@qq.com

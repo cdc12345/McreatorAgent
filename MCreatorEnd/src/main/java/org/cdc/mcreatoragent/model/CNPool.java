@@ -1,11 +1,11 @@
 package org.cdc.mcreatoragent.model;
 
 import javassist.*;
-import org.cdc.AbstractConfiguration;
+import org.cdc.agentlib.AbstractConfiguration;
 import org.cdc.mcreatoragent.AgentClass;
-import org.cdc.transformer.annotation.FilteredClass;
+import org.cdc.agentlib.transformer.annotation.FilteredClass;
 import org.cdc.mcreatoragent.utils.TranslatablePool;
-import org.cdc.transformer.FilterClassTransformer;
+import org.cdc.agentlib.transformer.FilterClassTransformer;
 
 
 import javax.swing.*;

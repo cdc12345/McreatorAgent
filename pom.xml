@@ -11,6 +11,7 @@
     <modules>
         <module>MCreatorEnd</module>
         <module>AgentLib</module>
+        <module>GradleEnd</module>
     </modules>
 
     <properties>
@@ -24,7 +25,7 @@
             <groupId>net.mcreator</groupId>
             <artifactId>javassist</artifactId>
             <version>1.0</version>
-            <scope>compile</scope>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

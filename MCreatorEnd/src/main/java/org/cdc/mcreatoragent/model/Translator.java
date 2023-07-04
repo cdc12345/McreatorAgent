@@ -1,12 +1,12 @@
 package org.cdc.mcreatoragent.model;
 
 import javassist.*;
-import org.cdc.AbstractConfiguration;
+import org.cdc.agentlib.AbstractConfiguration;
 import org.cdc.mcreatoragent.AgentClass;
-import org.cdc.transformer.annotation.FilteredClass;
-import org.cdc.mcreatoragent.utils.TranslatorUtils;
 import org.cdc.mcreatoragent.utils.ZHConverter;
-import org.cdc.transformer.FilterClassTransformer;
+import org.cdc.agentlib.transformer.FilterClassTransformer;
+import org.cdc.agentlib.transformer.annotation.FilteredClass;
+import org.cdc.mcreatoragent.utils.TranslatorUtils;
 
 import javax.swing.*;
 import java.awt.event.MouseAdapter;

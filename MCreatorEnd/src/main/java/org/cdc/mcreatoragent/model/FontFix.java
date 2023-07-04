@@ -3,11 +3,11 @@ package org.cdc.mcreatoragent.model;
 import javassist.CannotCompileException;
 import javassist.CtClass;
 import javassist.NotFoundException;
-import org.cdc.AbstractConfiguration;
+import org.cdc.agentlib.AbstractConfiguration;
 import org.cdc.mcreatoragent.AgentClass;
-import org.cdc.transformer.annotation.FilteredClass;
-import org.cdc.transformer.annotation.ModuleSection;
-import org.cdc.transformer.FilterClassTransformer;
+import org.cdc.agentlib.transformer.annotation.FilteredClass;
+import org.cdc.agentlib.transformer.annotation.ModuleSection;
+import org.cdc.agentlib.transformer.FilterClassTransformer;
 
 import java.awt.*;
 import java.io.File;
